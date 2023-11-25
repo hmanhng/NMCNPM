@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.loginController">
+   <children>
+      <ButtonBar layoutX="81.0" layoutY="225.0" prefHeight="40.0" prefWidth="200.0" />
+    <Button fx:id="loginButton" layoutX="583.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="46.0" prefWidth="112.0" text="ĐĂNG NHẬP" />
+      <ImageView fitHeight="421.0" fitWidth="376.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../demoNMCNPM/untitled/src/image/office-building.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="130.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iRESIDENTIAL" wrappingWidth="167.45498657226562">
+         <font>
+            <Font name="Franklin Gothic Medium" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="568.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XIN CHÀO !">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passwordField" layoutX="488.0" layoutY="235.0" prefHeight="40.0" prefWidth="302.0" promptText="mật khẩu" />
+      <TextField fx:id="usernameField" layoutX="487.0" layoutY="184.0" onAction="#initialize" prefHeight="40.0" prefWidth="302.0" promptText="tài khoản" />
+      <CheckBox fx:id="residentCheckBox" layoutX="487.0" layoutY="292.0" mnemonicParsing="false" text="Cư dân" />
+      <CheckBox fx:id="managerCheckBox" layoutX="488.0" layoutY="321.0" mnemonicParsing="false" text="Quản lý" />
+   </children>
+</AnchorPane>

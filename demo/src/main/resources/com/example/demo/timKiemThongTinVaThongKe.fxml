@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <TextField layoutX="401.0" layoutY="40.0" prefHeight="26.0" prefWidth="298.0" />
+      <Text layoutX="333.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên cư dân" />
+      <TableView layoutX="15.0" layoutY="89.0" prefHeight="382.0" prefWidth="772.0">
+        <columns>
+          <TableColumn prefWidth="196.00000286102295" text="Họ và tên" />
+          <TableColumn minWidth="0.0" prefWidth="76.79997253417969" text="Giới tính" />
+            <TableColumn prefWidth="153.5999755859375" text="Ngày tháng năm sinh" />
+            <TableColumn prefWidth="159.20001220703125" text="Quê quán" />
+            <TableColumn prefWidth="113.5999755859375" text="Nghề nghiệp" />
+            <TableColumn prefWidth="74.4000244140625" text="Số phòng" />
+        </columns>
+      </TableView>
+      <Button fx:id="searchButton" layoutX="722.0" layoutY="41.0" mnemonicParsing="false" text="Tìm kiếm" />
+   </children>
+</AnchorPane>
